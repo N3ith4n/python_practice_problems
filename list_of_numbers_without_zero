@@ -8,6 +8,7 @@ for x in range(101):
     one_to_100.append(x)
 
 #makes another empty list where all numbers without 0 will be placed
+numbers_without_zero = []
 
 #makes another loop that detects which numbers have zero and appends them to the second list
 
