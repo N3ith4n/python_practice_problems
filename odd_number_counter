@@ -1,0 +1,7 @@
+#Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
+ 
+#Asks the user for the ten numbers and directly converts it into an integer
+ 
+#The program detects the number of odd numbers using a loop
+
+#Prints the total number of odd numbers
