@@ -1,0 +1,5 @@
+#Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same..
+ 
+#Asks the user for the two numbers
+ 
+#The program that sees if the two numbers are equal or not and prints 'equal' or 'not equal'
