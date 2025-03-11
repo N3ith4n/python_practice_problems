@@ -16,3 +16,4 @@ for a in one_to_100:
         numbers_without_zero.append(a)
 
 #prints the second list
+print(numbers_without_zero)
