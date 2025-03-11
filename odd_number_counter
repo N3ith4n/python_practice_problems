@@ -25,3 +25,4 @@ for x in b:
         even += 1
 
 #Prints the total number of odd numbers
+print(f"There are a total of {odd} odd numbers")
