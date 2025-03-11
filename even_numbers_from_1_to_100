@@ -11,3 +11,9 @@ for x in range(101):
 even = []
 
 #makes another loop that detects which numbers are even in the 1st list
+for i in one_to_100:
+    if i %2 == 0:
+        even.append(i)
+
+#prints the list with all the even numbers
+print(even)
