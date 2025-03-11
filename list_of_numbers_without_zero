@@ -11,5 +11,8 @@ for x in range(101):
 numbers_without_zero = []
 
 #makes another loop that detects which numbers have zero and appends them to the second list
+for a in one_to_100:
+    if a %10 != 0:
+        numbers_without_zero.append(a)
 
 #prints the second list
