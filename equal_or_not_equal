@@ -6,6 +6,6 @@ n2 = int(input("second one = "))
  
 #The program that sees if the two numbers are equal or not and prints 'equal' or 'not equal'
 if n1 == n2:
-    print("equal")
+    print("The two numbers you gave are equal")
 else:
-    print("not equal")
+    print("The two numbers you gave are not equal")
