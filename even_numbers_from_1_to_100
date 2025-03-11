@@ -8,5 +8,6 @@ for x in range(101):
     one_to_100.append(x)
 
 #makes another empty list for all even numbers this time
+even = []
 
 #makes another loop that detects which numbers are even in the 1st list
