@@ -16,6 +16,8 @@ try:
 except ValueError:
     print("Invalid!")
 
-#prints the lowest number in the list
+#finds the lowest number in the list
 lowest = min(numbers)
+
+#prints the lowest number in the list
 print(f"The lowest number out of all the numbers you gave is {lowest}")
