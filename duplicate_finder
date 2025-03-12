@@ -1,4 +1,4 @@
-Prog21: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+#Prog21: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
 
 #Asks the user for the ten numbers and directly converts it into an integer
 n1 = int(input("Give me some numbers, first one = "))
@@ -20,8 +20,10 @@ unique = []
 
 #a loop that checks which numbers doesn't have a duplicate and appends it to the empty list
 for x in ten_numbers:
-  if x not in unique:
-    unique.append(x)
-
+    if x not in unique:
+        unique.append(x)
+    elif x in unique:
+        unique.remove(x)
+            
 #prints the list
 print(unique)
