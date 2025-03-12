@@ -16,3 +16,5 @@ except ValueError:
     print("Invalid!")
 
 #prints the lowest number in the list
+print(min(numbers))
+
