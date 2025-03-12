@@ -12,3 +12,4 @@ for b in range(n1 + 1, n2):
     in_between.append(b)
 
 #prints the list
+print(in_between)
