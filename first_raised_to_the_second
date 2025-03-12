@@ -5,5 +5,5 @@ n1 = int(input("Give me some numbers, first one = "))
 n2 = int(input("second one = "))
 
 #The program gets the first number then raises the second number to get the result
-exponent = n2 ** n1
+exponent = n1 ** n2
 print(exponent)
