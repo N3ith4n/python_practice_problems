@@ -1,0 +1,11 @@
+#Prog30: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the average.
+
+#makes an empty list where the numbers will be placed, this will be used as the basis of the loop
+
+#makes a loop that will continue to ask the user a number until the inputted value is not a number and also adds 1 to a variable that will be used for the average later
+
+#adds all the numbers inside the list
+
+#gets the average
+
+#prints the average
