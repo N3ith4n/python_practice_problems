@@ -6,8 +6,20 @@ numbers = []
 #Initializes a variable to be used for solving the average later
 total_number = 0
 
-
 #makes a loop that will continue to ask the user a number until the inputted value is not a number and also adds 1 to a variable that will be used for the average later
+try:
+    while True:
+        num = int(input("Give me a number = "))
+        if num not in numbers:
+            numbers.append(num)
+            print(numbers) 
+            total_number += 1
+        elif num in numbers:
+            numbers.append(num)
+            print(numbers)
+            total_number += 1
+except ValueError:
+    print("Invalid!")
 
 #adds all the numbers inside the list
 
