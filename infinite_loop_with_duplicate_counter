@@ -1,0 +1,9 @@
+#Prog27: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number with the most number of duplicate.
+
+#makes an empty dictionary store all the inputted number by the user, it being a dictiionary is necessary to count how many duplicates a number has
+
+#makes a loop that will continue to ask the user a number until the inputted value is not a number and also has the function that counts the duplicates of a number
+
+#finds the number with the most duplicates
+
+#prints the number with the most duplicates
