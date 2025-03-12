@@ -1,4 +1,6 @@
 #Prog21: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+#and
+#Prog26: Create a program that ask user to input 10 numbers. Display all numbers that have duplicate.
 
 #Asks the user for the ten numbers and directly converts it into an integer
 n1 = int(input("Give me some numbers, first one = "))
@@ -28,5 +30,5 @@ for x in ten_numbers:
         duplicates.append(x)
             
 #prints the lists
-print(unique)
-print(duplicates)
+print(f"The numbers that don’t have duplicates are {unique}")
+print(f"The numbers that have duplicates are {duplicates}")
