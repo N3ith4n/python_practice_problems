@@ -19,5 +19,9 @@ ten_numbers = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 except_duplicates = []
 
 #a loop that appends the numbers from the list except the duplicates
+for x in ten_numbers:
+    if x not in except_duplicates:
+        except_duplicates.append(x)
 
 #prints the list
+print(except_duplicates)
