@@ -8,13 +8,16 @@ try:
     while True:
         num = int(input("Give me a number = "))
         if num not in numbers:
-            print("Unique")
-        elif num in numbers:
-            print("Duplicate")
             numbers.append(num)
+            print(numbers) 
+        elif num in numbers:
+            numbers.append(num)
+            print(numbers) 
 except ValueError:
     print("Invalid!")
 
 #finds the highest number in the list
+highest = max(numbers)
 
 #prints the highest number in the list
+print(f"The highest number out of all the numbers you gave is {highest}")
