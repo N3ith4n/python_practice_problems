@@ -1,0 +1,5 @@
+#Prog16: Create a program that ask user to input 10 numbers. Print the result of the first number minus all of the remaining numbers.
+ 
+#Asks the user for the ten numbers and directly converts it into an integer
+
+#The program substracts all ten numbers then prints the difference
