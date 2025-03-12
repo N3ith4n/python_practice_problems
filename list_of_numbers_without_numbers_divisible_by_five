@@ -16,3 +16,4 @@ for a in one_to_100:
         numbers_not_divisible_by_five.append(a)
 
 #prints the second list
+print(numbers_not_divisible_by_five)
