@@ -11,7 +11,8 @@ try:
             numbers.append(num)
             print(numbers) 
         elif num in numbers:
-            print("Duplicate") #decided to keep it
+            numbers.append(num)
+            print(numbers) 
 except ValueError:
     print("Invalid!")
 
