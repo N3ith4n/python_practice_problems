@@ -17,5 +17,6 @@ except ValueError:
     print("Invalid!")
 
 #finds the number with the most duplicates
+most_duplicate_number = max(numbers, key=numbers.get)
 
 #prints the number with the most duplicates
