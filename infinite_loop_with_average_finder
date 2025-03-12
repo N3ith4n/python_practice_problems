@@ -22,7 +22,10 @@ except ValueError:
     print("Invalid!")
 
 #adds all the numbers inside the list
+total = sum(numbers)
 
 #gets the average
+average = total / total_number
 
 #prints the average
+print(average)
