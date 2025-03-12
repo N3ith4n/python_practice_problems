@@ -1,0 +1,11 @@
+Prog21: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+
+#Asks the user for the ten numbers and directly converts it into an integer
+
+#a list where each all the inputted numbers will be placed
+
+#an empty list where all the numbers without a duplicate will be placed
+
+#a loop that checks which numbers doesn't have a duplicate and appends it to the empty list
+
+#prints the list
