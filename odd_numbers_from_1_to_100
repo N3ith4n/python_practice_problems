@@ -16,3 +16,4 @@ for i in one_to_100:
         odd.append(i)
 
 #prints the list with all the odd numbers
+print(odd)
