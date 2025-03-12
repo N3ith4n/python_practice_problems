@@ -15,15 +15,18 @@ n10 = int(input("tenth = "))
 #a list where each all the inputted numbers will be placed
 ten_numbers = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 
-#an empty list where all the numbers without a duplicate will be placed
+#empty lists where all the numbers with and without a duplicate will be seperately placed
 unique = []
+duplicates = []
 
-#a loop that checks which numbers doesn't have a duplicate and appends it to the empty list
+#a loop that checks which numbers are a duplicate and which doesn't have a duplicate and appends it to the empty list
 for x in ten_numbers:
     if x not in unique:
         unique.append(x)
     elif x in unique:
         unique.remove(x)
+        duplicates.append(x)
             
-#prints the list
+#prints the lists
 print(unique)
+print(duplicates)
