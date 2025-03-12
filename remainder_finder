@@ -1,0 +1,5 @@
+#Prog15: Create a program that ask user to input 2 numbers. Print the remainder when the first number is divided by the second number.
+ 
+#Asks the user for the two numbers and directly converts it into an integer
+
+#The program divides the two numbers and prints the remainder 
