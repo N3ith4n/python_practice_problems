@@ -1,4 +1,6 @@
-#Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same..
+#Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same.
+#and
+#Prog12: Create a program that ask user to input 2 numbers. Print "Not Equal" when the numbers are not the same.
  
 #Asks the user for the two numbers
 n1 = int(input("Give me some numbers, first one = "))
