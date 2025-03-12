@@ -1,0 +1,11 @@
+#Prog19: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero or ending five.
+ 
+#makes an empty list where all numbers from 0 to 100 will be placed
+
+#makes a loop that appends(inputs) numbers 0 to 100 to the empty list
+
+#makes another empty list where all numbers divisible by five(ending in zero or five) will be placed
+
+#makes another loop that detects which numbers are divisible by five and appends them to the second list
+
+#prints the second list
