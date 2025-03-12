@@ -20,3 +20,4 @@ except ValueError:
 numbers.sort(reverse=True)
 
 #prints the organized list
+print(f"Here is the organized list = {numbers}")
