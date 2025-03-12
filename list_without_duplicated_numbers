@@ -1,0 +1,11 @@
+#Prog22: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry.
+
+#Asks the user for the ten numbers and directly converts it into an integer
+
+#a list where each all the inputted numbers will be placed
+
+#empty lists where all the numbers required will be placed
+
+#a loop that appends the numbers from the list except the duplicates
+
+#prints the list
