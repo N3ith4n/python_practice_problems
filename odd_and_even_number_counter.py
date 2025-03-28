@@ -16,11 +16,11 @@ n10 = int(input("tenth = "))
  
 #The program detects the number of odd and even numbers using a loop
 numbers = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
-b = [int(item) for item in numbers]
+record = [int(item) for item in numbers]
 odd = 0
 even = 0
 
-for x in b:
+for x in record:
     if x %2 == 1:
         odd += 1
     elif x %2 == 0:
